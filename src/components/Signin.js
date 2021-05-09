@@ -110,11 +110,12 @@ export default function SignUp() {
             <Grid item xs={12}>
               <FormControlLabel
                 control={<Checkbox value="allowExtraEmails" color="primary" />}
-                label="I want to receive inspiration, marketing promotions and updates via email."
+                label="I am using Syracuse University suffix email to register for an acount."
               />
             </Grid>
           </Grid>
           <Button
+            href="/"
             type="submit"
             fullWidth
             variant="contained"
