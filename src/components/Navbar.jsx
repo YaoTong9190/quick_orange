@@ -3,7 +3,7 @@ import {AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography} from '@m
 import {ShoppingCart} from '@material-ui/icons';
 import {Link, useLocation} from 'react-router-dom';
 
-import logo from '../assets/commerce.png';
+import logo from '../assets/su.png';
 import useStyle from './NavbarStyles';
 const Navbar = ({totalItems}) => {
 
@@ -17,8 +17,9 @@ const Navbar = ({totalItems}) => {
                     
                     <Typography component={Link} to="/" variant="h6" className = {classes.title} color="inherit">
                         <img src={logo} alt="Shopping site" height = "25px" className = {classes.image} />
-                        Quick Orange
+                        Quick Orange - SU Online MarketPlace
                     </Typography>
+                    
                     <div className={classes.grow}/>
                     {location.pathname === '/'? (
                         <div className={classes.button}>

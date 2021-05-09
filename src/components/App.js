@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AddressForm from "./AddressForm";
 import Checkout from "./Checkout";
 import Signin from "./Signin";
+import NewlyShelf from "./NewlyShelf";
 const App = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState({});
