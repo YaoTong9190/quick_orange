@@ -18,7 +18,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://material-ui.com/">
-        Quick Orange Team 2021.
+        Quick Orange Team
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -110,7 +110,7 @@ export default function SignUp() {
             <Grid item xs={12}>
               <FormControlLabel
                 control={<Checkbox value="allowExtraEmails" color="primary" />}
-                label="I am using Syracuse University suffix email to register for an acount."
+                label="I am using Syracuse University email to register for an acount."
               />
             </Grid>
           </Grid>
